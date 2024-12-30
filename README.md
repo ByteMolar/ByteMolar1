@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ByteMolar_logo.png" alt="ByteMolar Logo" width="200">
+  <img src="./assets/images/ByteMolar_logo.png" alt="ByteMolar Logo" width="200">
 </p>
 
 # ByteMolar: AI Dental Diagnostics Platform 🦷💡
@@ -31,34 +31,34 @@ Oral health impacts overall health. ByteMolar provides the tools to identify, ma
    Analyze dental X-rays and intraoral scans with unparalleled accuracy:
    - Detect cavities, fractures, and periodontal issues in real time.
   <p align="center">
-  <img src="./assets/ByteMolar_analysis1.jpeg" alt="Analysis Example 1" width="45%">
-  <img src="./assets/ByteMolar_analysis2.jpeg" alt="Analysis Example 2" width="45%">
+  <img src="./assets/images/ByteMolar_analysis1.jpeg" alt="Analysis Example 1" width="45%">
+  <img src="./assets/images/ByteMolar_analysis2.jpeg" alt="Analysis Example 2" width="45%">
 </p>
 
 
 2. **Predictive Outcome Modeling**
    Leverage historical data to forecast treatment success and patient outcomes:
    - Help patients make informed decisions with confidence.
-   <img src="./assets/ByteMolar_opp_prob1.jpeg" alt="Operation Probability Example" width="50%">
+   <img src="./assets/images/ByteMolar_opp_prob1.jpeg" alt="Operation Probability Example" width="50%">
 
 
 
 3. **Dynamic Patient Portal**
    A secure hub for patients to:
    - Access dental records, treatment plans, and appointment schedules.
-   <img src="./assets/ByteMolar_patient_port.jpeg" alt="Patient Portal Example" width="52%">
+   <img src="./assets/images/ByteMolar_patient_port.jpeg" alt="Patient Portal Example" width="52%">
 
 
 4. **Clinic Dashboard & Reporting**
    Advanced tools for clinics:
    - Monitor operational metrics, manage appointments, and visualize patient trends.
-   <img src="./assets/ByteMolar_clinic_dash.jpeg" alt="Clinic Dashboard Example" width="50%">
+   <img src="./assets/images/ByteMolar_clinic_dash.jpeg" alt="Clinic Dashboard Example" width="50%">
 
 
 5. **Integration & APIs**
    Seamless compatibility with existing clinic management systems:
    - Enhance workflows without disruption.
-   <img src="./assets/ByteMolar_infosync.jpeg" alt="Information Synchronization Example" width="50%">
+   <img src="./assets/images/ByteMolar_infosync.jpeg" alt="Information Synchronization Example" width="50%">
 
 ---
 
@@ -134,10 +134,11 @@ Join the ByteMolar community to shape the future of dental diagnostics. Collabor
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ByteMolar.git
+git clone https://github.com/ByteMolar/ByteMolar1.git
 
 # Install dependencies
 npm install
 
 # Build Solana program
 cargo build-bpf
+ 

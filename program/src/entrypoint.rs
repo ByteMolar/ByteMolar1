@@ -3,14 +3,9 @@ use solana_program::{
     entrypoint,
     entrypoint::ProgramResult,
     pubkey::Pubkey,
-    msg,
 };
 
-pub mod error;
-pub mod processor;
-pub mod state;
-
-use processor::Processor;
+use crate::processor::Processor;
 
 entrypoint!(process_instruction);
 
@@ -19,6 +14,5 @@ pub fn process_instruction(
     accounts: &[AccountInfo],
     instruction_data: &[u8],
 ) -> ProgramResult {
-    msg!("ByteMolar program entrypoint");
     Processor::process_instruction(program_id, accounts, instruction_data)
 }

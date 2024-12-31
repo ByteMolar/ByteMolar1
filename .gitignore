@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+/target/
+
+# Environment files
+.env
+.env.local
+
+# Build files
+/dist/
+/build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
